@@ -8,7 +8,7 @@ public class PriceCalculator {
     private static final int RESOURCES_PER_GEM = 10;
 
     public static VirtualGem[] generateVirtualGems(Resource res, Gem gem) {
-        VirtualGem[] virtualGems = new VirtualGem[10];
+        VirtualGem[] virtualGems = new VirtualGem[RESOURCES_PER_GEM];
         double pvp = calculatePvP(res, gem);
 
         for (int i = 0; i < virtualGems.length; i++) {
