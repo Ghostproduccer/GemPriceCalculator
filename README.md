@@ -1,6 +1,6 @@
 ## GemPriceCalculator
 
-Java program to simulate gem generation in pokemon RPG and calculate the recommended price.
+Java program to simulate gem generation in pokemon RPG that calculates the recommended price.
 
 ## Folder Structure
 
